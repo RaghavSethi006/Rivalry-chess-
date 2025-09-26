@@ -1,0 +1,21 @@
+# Phase 2 Requirements - Data Processing and Feature Engineering
+python-chess>=1.999
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.1.0
+joblib>=1.2.0
+pyarrow>=10.0.0  # For parquet files
+tqdm>=4.64.0  # For progress bars
+zstandard>=0.21.0  # For .zst decompression
+requests>=2.28.0  # For downloading files
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Optional: Progress bars
+tqdm>=4.65.0
+
+# Development and testing
+pytest>=7.0.0
+pytest-cov>=4.0.0

@@ -1,0 +1,76 @@
+{
+  "feature_names": [
+    "my_pawn_count",
+    "opp_pawn_count",
+    "my_knight_count",
+    "opp_knight_count",
+    "my_bishop_count",
+    "opp_bishop_count",
+    "my_rook_count",
+    "opp_rook_count",
+    "my_queen_count",
+    "opp_queen_count",
+    "material_diff",
+    "total_material",
+    "my_mobility",
+    "opp_mobility",
+    "mobility_diff",
+    "my_king_safety",
+    "opp_king_safety",
+    "my_castled",
+    "opp_castled",
+    "my_doubled_pawns",
+    "opp_doubled_pawns",
+    "my_isolated_pawns",
+    "opp_isolated_pawns",
+    "my_passed_pawns",
+    "opp_passed_pawns",
+    "my_pawn_pst",
+    "opp_pawn_pst",
+    "my_knight_pst",
+    "opp_knight_pst",
+    "my_bishop_pst",
+    "opp_bishop_pst",
+    "my_rook_pst",
+    "opp_rook_pst",
+    "my_queen_pst",
+    "opp_queen_pst",
+    "my_king_pst",
+    "opp_king_pst",
+    "center_control",
+    "development",
+    "is_endgame",
+    "ply_number"
+  ],
+  "feature_count": 41,
+  "dataset_stats": {
+    "train_size": 85690,
+    "val_size": 12342,
+    "test_size": 24632,
+    "total_size": 122664
+  },
+  "label_distribution": {
+    "train": {
+      "0.0": 35160,
+      "1.0": 34748,
+      "0.5": 15782
+    },
+    "val": {
+      "1.0": 5216,
+      "0.0": 4870,
+      "0.5": 2256
+    },
+    "test": {
+      "1.0": 10036,
+      "0.0": 9970,
+      "0.5": 4626
+    }
+  },
+  "processing_params": {
+    "sample_every_n_plies": 2,
+    "min_elo": 1200,
+    "max_elo": 2000,
+    "balance_results": true,
+    "max_positions_per_result": 50000
+  }
+}
